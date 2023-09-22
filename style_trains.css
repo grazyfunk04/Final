@@ -1,4 +1,4 @@
-.flights {
+.trains {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -15,7 +15,7 @@ a:visited{
   color: #11c3e9;
 }
 
-.flights .div {
+.trains .div {
   background-color: #ffffff;
   overflow: hidden;
   width: 1280px;
@@ -23,7 +23,7 @@ a:visited{
   position: relative;
 }
 
-.flights .navbar {
+.trains .navbar {
   position: absolute;
   width: 1026px;
   height: 51px;
@@ -31,7 +31,7 @@ a:visited{
   left: 187px;
 }
 
-.flights .button {
+.trains .button {
   display: flex;
   width: 160px;
   height: 51px;
@@ -50,7 +50,7 @@ a:visited{
   box-sizing: border-box;
 }
 
-.flights .click-here {
+.trains .click-here {
   position: relative;
   flex: 1;
   height: 19px;
@@ -65,7 +65,7 @@ a:visited{
   font-style: var(--body-body-1-semibold-font-style);
 }
 
-.flights .action-search {
+.trains .action-search {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -73,20 +73,20 @@ a:visited{
   left: 824px;
 }
 
-.flights .round-action-search {
+.trains .round-action-search {
   position: relative;
   height: 30px;
 }
 
-.flights .path {
+.trains .path {
   position: absolute;
   width: 30px;
   height: 30px;
   top: 748px;
-  left: -10571px;
+  left: -9251px;
 }
 
-.flights .icon-color {
+.trains .icon-color {
   position: absolute;
   width: 21px;
   height: 21px;
@@ -94,15 +94,15 @@ a:visited{
   left: 4px;
 }
 
-.flights .menu {
+.trains .menu {
   position: absolute;
   width: 528px;
-  height: 33px;
+  height: 35px;
   top: 10px;
   left: 0;
 }
 
-.flights .navbar-2 {
+.trains .navbar-2 {
   position: absolute;
   width: 540px;
   height: 24px;
@@ -110,7 +110,7 @@ a:visited{
   left: 0;
 }
 
-.flights .text-wrapper {
+.trains .text-wrapper {
   left: 287px;
   color: var(--lighttext-colorbody-1);
   position: absolute;
@@ -123,7 +123,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .text-wrapper-2 {
+.trains .text-wrapper-2 {
   left: 369px;
   color: var(--lighttext-colorbody-1);
   position: absolute;
@@ -136,7 +136,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .text-wrapper-3 {
+.trains .text-wrapper-3 {
   position: absolute;
   top: 0;
   left: 427px;
@@ -149,7 +149,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .text-wrapper-4 {
+.trains .text-wrapper-4 {
   position: absolute;
   top: 0;
   left: 144px;
@@ -162,7 +162,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .text-wrapper-5 {
+.trains .text-wrapper-5 {
   left: 71px;
   color: #000000b2;
   position: absolute;
@@ -175,7 +175,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .text-wrapper-6 {
+.trains .text-wrapper-6 {
   left: 0;
   color: #304f47;
   position: absolute;
@@ -188,15 +188,15 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .line {
+.trains .line {
   position: absolute;
-  width: 125px;
+  width: 128px;
   height: 3px;
-  top: 30px;
-  left: 147px;
+  top: 32px;
+  left: 144px;
 }
 
-.flights .overlap {
+.trains .overlap {
   position: absolute;
   width: 1288px;
   height: 474px;
@@ -204,7 +204,7 @@ a:visited{
   left: 0;
 }
 
-.flights .hero {
+.trains .hero {
   position: absolute;
   width: 1288px;
   height: 474px;
@@ -212,16 +212,16 @@ a:visited{
   left: 0;
 }
 
-.flights .overlap-group {
+.trains .overlap-group {
   position: relative;
   width: 1280px;
   height: 474px;
-  background-image: url(./img/image-placeholder-16.png);
+  background-image: url(./img/image-placeholder.png);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.flights .rectangle {
+.trains .rectangle {
   position: absolute;
   width: 1280px;
   height: 473px;
@@ -230,7 +230,7 @@ a:visited{
   background-color: #304f4780;
 }
 
-.flights .text-wrapper-7 {
+.trains .text-wrapper-7 {
   width: 223px;
   top: 270px;
   left: 841px;
@@ -243,7 +243,7 @@ a:visited{
   font-weight: 700;
 }
 
-.flights .text-wrapper-8 {
+.trains .text-wrapper-8 {
   width: 232px;
   top: 175px;
   left: 498px;
@@ -257,7 +257,7 @@ a:visited{
   font-weight: 700;
 }
 
-.flights .text-wrapper-9 {
+.trains .text-wrapper-9 {
   width: 97px;
   top: 276px;
   left: 379px;
@@ -270,7 +270,7 @@ a:visited{
   color: #ffffff;
 }
 
-.flights .caret-right-filled {
+.trains .caret-right-filled {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -278,7 +278,7 @@ a:visited{
   left: 505px;
 }
 
-.flights .text-wrapper-10 {
+.trains .text-wrapper-10 {
   position: absolute;
   width: 223px;
   top: 273px;
@@ -291,7 +291,7 @@ a:visited{
   line-height: 38.4px;
 }
 
-.flights .img {
+.trains .img {
   position: absolute;
   width: 32px;
   height: 32px;
@@ -299,7 +299,7 @@ a:visited{
   left: 795px;
 }
 
-.flights .packages {
+.trains .packages {
   position: absolute;
   width: 1084px;
   height: 584px;
@@ -307,7 +307,7 @@ a:visited{
   left: 91px;
 }
 
-.flights .package {
+.trains .package {
   left: 734px;
   position: absolute;
   width: 354px;
@@ -315,7 +315,7 @@ a:visited{
   top: 0;
 }
 
-.flights .overlap-group-2 {
+.trains .overlap-group-2 {
   position: relative;
   width: 350px;
   height: 584px;
@@ -325,7 +325,7 @@ a:visited{
   border-color: var(--lightseparators-colorssecondary);
 }
 
-.flights .click-here-wrapper {
+.trains .click-here-wrapper {
   display: flex;
   width: 117px;
   height: 56px;
@@ -342,7 +342,7 @@ a:visited{
   box-sizing: border-box;
 }
 
-.flights .click-here-2 {
+.trains .click-here-2 {
   position: relative;
   width: fit-content;
   margin-top: -0.5px;
@@ -359,7 +359,7 @@ a:visited{
   font-style: var(--body-body-1-semibold-font-style);
 }
 
-.flights .text-wrapper-11 {
+.trains .text-wrapper-11 {
   position: absolute;
   width: 322px;
   top: 341px;
@@ -373,7 +373,7 @@ a:visited{
   font-style: var(--heading-h5-bold-font-style);
 }
 
-.flights .image-placeholder {
+.trains .image-placeholder {
   position: absolute;
   width: 350px;
   height: 310px;
@@ -381,7 +381,7 @@ a:visited{
   left: -1px;
 }
 
-.flights .p {
+.trains .p {
   position: absolute;
   width: 256px;
   top: 383px;
@@ -394,7 +394,7 @@ a:visited{
   line-height: 20px;
 }
 
-.flights .overlap-wrapper {
+.trains .overlap-wrapper {
   left: 367px;
   position: absolute;
   width: 354px;
@@ -402,7 +402,7 @@ a:visited{
   top: 0;
 }
 
-.flights .image-placeholder-2 {
+.trains .image-placeholder-2 {
   width: 350px;
   height: 310px;
   top: -1px;
@@ -411,7 +411,7 @@ a:visited{
   object-fit: cover;
 }
 
-.flights .overlap-group-wrapper {
+.trains .overlap-group-wrapper {
   left: 0;
   position: absolute;
   width: 354px;
@@ -419,7 +419,7 @@ a:visited{
   top: 0;
 }
 
-.flights .packages-2 {
+.trains .packages-2 {
   position: absolute;
   width: 1084px;
   height: 584px;
@@ -427,7 +427,7 @@ a:visited{
   left: 101px;
 }
 
-.flights .packages-3 {
+.trains .packages-3 {
   position: absolute;
   width: 1084px;
   height: 584px;
@@ -435,7 +435,7 @@ a:visited{
   left: 105px;
 }
 
-.flights .overlap-2 {
+.trains .overlap-2 {
   position: absolute;
   width: 1070px;
   height: 218px;
@@ -443,7 +443,7 @@ a:visited{
   left: 105px;
 }
 
-.flights .group {
+.trains .group {
   position: absolute;
   width: 612px;
   height: 181px;
@@ -451,7 +451,7 @@ a:visited{
   left: 257px;
 }
 
-.flights .text-wrapper-12 {
+.trains .text-wrapper-12 {
   position: absolute;
   width: 348px;
   top: 0;
@@ -464,7 +464,7 @@ a:visited{
   line-height: 38.4px;
 }
 
-.flights .text-wrapper-13 {
+.trains .text-wrapper-13 {
   position: absolute;
   width: 608px;
   top: 65px;
@@ -478,7 +478,7 @@ a:visited{
   line-height: 57.6px;
 }
 
-.flights .back-buttons {
+.trains .back-buttons {
   width: 1070px;
   height: 56px;
   top: 0;
@@ -486,7 +486,7 @@ a:visited{
   left: 0;
 }
 
-.flights .back-button {
+.trains .back-button {
   width: 55px;
   height: 55px;
   top: 1px;
@@ -494,13 +494,13 @@ a:visited{
   left: 0;
 }
 
-.flights .overlap-group-3 {
+.trains .overlap-group-3 {
   position: relative;
   height: 55px;
   border-radius: 27.5px;
 }
 
-.flights .vector {
+.trains .vector {
   position: absolute;
   width: 18px;
   height: 27px;
@@ -508,7 +508,7 @@ a:visited{
   left: 17px;
 }
 
-.flights .ellipse {
+.trains .ellipse {
   position: absolute;
   width: 55px;
   height: 55px;
@@ -519,7 +519,7 @@ a:visited{
   border-color: #ffffff;
 }
 
-.flights .div-wrapper {
+.trains .div-wrapper {
   position: absolute;
   width: 55px;
   height: 55px;
@@ -528,7 +528,7 @@ a:visited{
   transform: rotate(-180deg);
 }
 
-.flights .vector-2 {
+.trains .vector-2 {
   position: absolute;
   width: 18px;
   height: 27px;
@@ -537,7 +537,7 @@ a:visited{
   transform: rotate(180deg);
 }
 
-.flights .group-social-icons {
+.trains .group-social-icons {
   position: absolute;
   width: 120px;
   height: 33px;
@@ -545,31 +545,31 @@ a:visited{
   left: 1055px;
 }
 
-.flights .social-button {
+.trains .social-button {
   position: absolute;
   width: 24px;
   height: 33px;
   top: 833px;
-  left: -9560px;
+  left: -8240px;
 }
 
-.flights .social-button-2 {
+.trains .social-button-2 {
   position: absolute;
   width: 24px;
   height: 33px;
   top: 833px;
-  left: -9528px;
+  left: -8208px;
 }
 
-.flights .social-button-3 {
+.trains .social-button-3 {
   position: absolute;
   width: 24px;
   height: 33px;
   top: 833px;
-  left: -9496px;
+  left: -8176px;
 }
 
-.flights .subtract-wrapper {
+.trains .subtract-wrapper {
   position: absolute;
   width: 24px;
   height: 33px;
@@ -580,15 +580,15 @@ a:visited{
   border-color: #ffffff;
 }
 
-.flights .subtract {
+.trains .subtract {
   position: absolute;
   width: 10px;
   height: 14px;
   top: 1073px;
-  left: -10705px;
+  left: -9385px;
 }
 
-.flights .overlap-3 {
+.trains .overlap-3 {
   position: absolute;
   width: 1280px;
   height: 565px;
@@ -596,7 +596,7 @@ a:visited{
   left: -1px;
 }
 
-.flights .footer {
+.trains .footer {
   width: 1280px;
   position: absolute;
   height: 565px;
@@ -604,13 +604,13 @@ a:visited{
   left: 0;
 }
 
-.flights .overlap-4 {
+.trains .overlap-4 {
   position: relative;
   width: 1282px;
   height: 565px;
 }
 
-.flights .footer-2 {
+.trains .footer-2 {
   width: 1282px;
   position: absolute;
   height: 565px;
@@ -618,14 +618,14 @@ a:visited{
   left: 0;
 }
 
-.flights .overlap-group-4 {
+.trains .overlap-group-4 {
   position: relative;
   width: 1280px;
   height: 565px;
   background-color: #304f47;
 }
 
-.flights .menu-list {
+.trains .menu-list {
   position: absolute;
   width: 93px;
   height: 92px;
@@ -633,7 +633,7 @@ a:visited{
   left: 1133px;
 }
 
-.flights .text-wrapper-14 {
+.trains .text-wrapper-14 {
   position: absolute;
   width: 82px;
   top: 72px;
@@ -648,7 +648,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-15 {
+.trains .text-wrapper-15 {
   position: absolute;
   width: 58px;
   top: 36px;
@@ -663,7 +663,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-16 {
+.trains .text-wrapper-16 {
   position: absolute;
   width: 87px;
   top: 0;
@@ -678,7 +678,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .menu-list-2 {
+.trains .menu-list-2 {
   width: 155px;
   height: 128px;
   left: 924px;
@@ -686,7 +686,7 @@ a:visited{
   top: 274px;
 }
 
-.flights .text-wrapper-17 {
+.trains .text-wrapper-17 {
   position: absolute;
   width: 70px;
   top: 72px;
@@ -701,7 +701,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-18 {
+.trains .text-wrapper-18 {
   position: absolute;
   width: 70px;
   top: 108px;
@@ -716,7 +716,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-19 {
+.trains .text-wrapper-19 {
   position: absolute;
   width: 147px;
   top: 36px;
@@ -731,7 +731,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-20 {
+.trains .text-wrapper-20 {
   position: absolute;
   width: 102px;
   top: 0;
@@ -746,7 +746,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .menu-list-3 {
+.trains .menu-list-3 {
   width: 105px;
   height: 122px;
   left: 720px;
@@ -754,7 +754,7 @@ a:visited{
   top: 274px;
 }
 
-.flights .text-wrapper-21 {
+.trains .text-wrapper-21 {
   position: absolute;
   width: 96px;
   top: 72px;
@@ -769,7 +769,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-22 {
+.trains .text-wrapper-22 {
   position: absolute;
   width: 68px;
   top: 102px;
@@ -784,7 +784,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-23 {
+.trains .text-wrapper-23 {
   width: 45px;
   top: 0;
   left: 1px;
@@ -799,7 +799,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-24 {
+.trains .text-wrapper-24 {
   position: absolute;
   width: 97px;
   top: 36px;
@@ -814,7 +814,7 @@ a:visited{
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.flights .text-wrapper-25 {
+.trains .text-wrapper-25 {
   position: absolute;
   width: 499px;
   top: 150px;
@@ -828,7 +828,7 @@ a:visited{
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.flights .contact-us {
+.trains .contact-us {
   position: absolute;
   width: 758px;
   height: 565px;
@@ -836,13 +836,13 @@ a:visited{
   left: 0;
 }
 
-.flights .overlap-5 {
+.trains .overlap-5 {
   position: relative;
   width: 750px;
   height: 565px;
 }
 
-.flights .background {
+.trains .background {
   position: absolute;
   width: 618px;
   height: 565px;
@@ -851,7 +851,7 @@ a:visited{
   background-color: #304f47;
 }
 
-.flights .text-wrapper-26 {
+.trains .text-wrapper-26 {
   position: absolute;
   width: 271px;
   top: 518px;
@@ -866,7 +866,7 @@ a:visited{
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.flights .if-you-have-any {
+.trains .if-you-have-any {
   position: absolute;
   width: 396px;
   top: 154px;
@@ -879,7 +879,7 @@ a:visited{
   line-height: 25px;
 }
 
-.flights .span {
+.trains .span {
   font-family: "Mulish", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -888,11 +888,11 @@ a:visited{
   line-height: 25px;
 }
 
-.flights .text-wrapper-27 {
+.trains .text-wrapper-27 {
   text-decoration: underline;
 }
 
-.flights .text-wrapper-28 {
+.trains .text-wrapper-28 {
   position: absolute;
   width: 309px;
   top: 376px;
@@ -906,7 +906,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .text-wrapper-29 {
+.trains .text-wrapper-29 {
   position: absolute;
   width: 467px;
   top: 30px;
@@ -920,7 +920,7 @@ a:visited{
   font-style: var(--heading-h3-bold-font-style);
 }
 
-.flights .button-2 {
+.trains .button-2 {
   position: absolute;
   width: 55px;
   height: 58px;
@@ -929,13 +929,13 @@ a:visited{
   background-color: #304f47;
 }
 
-.flights .group-wrapper {
+.trains .group-wrapper {
   height: 58px;
   background-color: #11c3e9;
   border-radius: 8px;
 }
 
-.flights .group-2 {
+.trains .group-2 {
   position: relative;
   width: 24px;
   height: 25px;
@@ -945,7 +945,7 @@ a:visited{
   background-size: 100% 100%;
 }
 
-.flights .textbox {
+.trains .textbox {
   position: absolute;
   width: 335px;
   height: 58px;
@@ -953,7 +953,7 @@ a:visited{
   left: 96px;
 }
 
-.flights .overlap-6 {
+.trains .overlap-6 {
   position: relative;
   width: 333px;
   height: 58px;
@@ -961,7 +961,7 @@ a:visited{
   border-radius: 8px;
 }
 
-.flights .text-wrapper-30 {
+.trains .text-wrapper-30 {
   position: absolute;
   width: 185px;
   top: 19px;
@@ -976,7 +976,7 @@ a:visited{
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.flights .group-social-icons-2 {
+.trains .group-social-icons-2 {
   position: absolute;
   width: 126px;
   height: 29px;
@@ -984,7 +984,7 @@ a:visited{
   left: 940px;
 }
 
-.flights .social-button-4 {
+.trains .social-button-4 {
   position: absolute;
   width: 30px;
   height: 28px;
@@ -992,7 +992,7 @@ a:visited{
   left: 0;
 }
 
-.flights .social-button-5 {
+.trains .social-button-5 {
   position: absolute;
   width: 29px;
   height: 28px;
@@ -1000,7 +1000,7 @@ a:visited{
   left: 32px;
 }
 
-.flights .social-button-6 {
+.trains .social-button-6 {
   position: absolute;
   width: 29px;
   height: 28px;
@@ -1008,7 +1008,7 @@ a:visited{
   left: 64px;
 }
 
-.flights .img-wrapper {
+.trains .img-wrapper {
   position: absolute;
   width: 30px;
   height: 29px;
@@ -1019,7 +1019,7 @@ a:visited{
   border-color: #ffffff;
 }
 
-.flights .subtract-2 {
+.trains .subtract-2 {
   position: absolute;
   width: 13px;
   height: 13px;
@@ -1027,7 +1027,7 @@ a:visited{
   left: 7px;
 }
 
-.flights .tourism {
+.trains .tourism {
   position: absolute;
   width: 95px;
   height: 85px;
@@ -1036,7 +1036,7 @@ a:visited{
   object-fit: cover;
 }
 
-.flights .upper-navigation {
+.trains .upper-navigation {
   position: absolute;
   width: 1280px;
   height: 50px;
@@ -1045,7 +1045,7 @@ a:visited{
   background-color: #11c3e9;
 }
 
-.flights .group-social-icons-3 {
+.trains .group-social-icons-3 {
   position: absolute;
   width: 120px;
   height: 25px;
@@ -1053,7 +1053,7 @@ a:visited{
   left: 1060px;
 }
 
-.flights .social-button-7 {
+.trains .social-button-7 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1061,7 +1061,7 @@ a:visited{
   left: 0;
 }
 
-.flights .social-button-8 {
+.trains .social-button-8 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1069,7 +1069,7 @@ a:visited{
   left: 32px;
 }
 
-.flights .social-button-9 {
+.trains .social-button-9 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1077,7 +1077,7 @@ a:visited{
   left: 64px;
 }
 
-.flights .social-button-10 {
+.trains .social-button-10 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1088,7 +1088,7 @@ a:visited{
   border-color: #ffffff;
 }
 
-.flights .subtract-3 {
+.trains .subtract-3 {
   position: absolute;
   width: 10px;
   height: 11px;
@@ -1096,7 +1096,7 @@ a:visited{
   left: 6px;
 }
 
-.flights .group-phone {
+.trains .group-phone {
   position: absolute;
   width: 118px;
   height: 21px;
@@ -1104,7 +1104,7 @@ a:visited{
   left: 100px;
 }
 
-.flights .vector-3 {
+.trains .vector-3 {
   position: absolute;
   width: 20px;
   height: 21px;
@@ -1112,7 +1112,7 @@ a:visited{
   left: 0;
 }
 
-.flights .text-wrapper-31 {
+.trains .text-wrapper-31 {
   position: absolute;
   width: 92px;
   top: 2px;
@@ -1125,7 +1125,7 @@ a:visited{
   line-height: normal;
 }
 
-.flights .group-email {
+.trains .group-email {
   position: absolute;
   width: 166px;
   height: 19px;
@@ -1133,7 +1133,7 @@ a:visited{
   left: 245px;
 }
 
-.flights .text-wrapper-32 {
+.trains .text-wrapper-32 {
   position: absolute;
   width: 133px;
   top: 1px;
@@ -1146,7 +1146,7 @@ a:visited{
   line-height: normal;
 }
 
-.flights .vector-4 {
+.trains .vector-4 {
   position: absolute;
   width: 25px;
   height: 19px;
@@ -1154,7 +1154,7 @@ a:visited{
   left: 0;
 }
 
-.flights .tourism-2 {
+.trains .tourism-2 {
   position: absolute;
   width: 95px;
   height: 84px;
@@ -1163,7 +1163,7 @@ a:visited{
   object-fit: cover;
 }
 
-.flights .packages-4 {
+.trains .packages-4 {
   position: absolute;
   width: 1084px;
   height: 584px;
@@ -1171,7 +1171,7 @@ a:visited{
   left: 115px;
 }
 
-.flights .group-3 {
+.trains .group-3 {
   position: absolute;
   width: 612px;
   height: 172px;
@@ -1179,7 +1179,7 @@ a:visited{
   left: 353px;
 }
 
-.flights .text-wrapper-33 {
+.trains .text-wrapper-33 {
   position: absolute;
   width: 251px;
   top: 0;
@@ -1193,7 +1193,7 @@ a:visited{
   white-space: nowrap;
 }
 
-.flights .select-our-best {
+.trains .select-our-best {
   position: absolute;
   width: 608px;
   top: 56px;
@@ -1207,7 +1207,7 @@ a:visited{
   line-height: 57.6px;
 }
 
-.flights .destinations {
+.trains .destinations {
   position: absolute;
   width: 1352px;
   height: 656px;
@@ -1215,7 +1215,7 @@ a:visited{
   left: 44px;
 }
 
-.flights .kigali {
+.trains .kigali {
   width: 336px;
   height: 556px;
   top: 100px;
@@ -1224,7 +1224,7 @@ a:visited{
   left: 0;
 }
 
-.flights .div-2 {
+.trains .div-2 {
   position: absolute;
   width: 282px;
   height: 123px;
@@ -1232,7 +1232,7 @@ a:visited{
   left: 16px;
 }
 
-.flights .text-wrapper-34 {
+.trains .text-wrapper-34 {
   position: absolute;
   width: 278px;
   top: 63px;
@@ -1246,7 +1246,7 @@ a:visited{
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.flights .text-wrapper-35 {
+.trains .text-wrapper-35 {
   top: 0;
   font-family: var(--heading-h3-bold-font-family);
   font-weight: var(--heading-h3-bold-font-weight);
@@ -1260,7 +1260,7 @@ a:visited{
   font-style: var(--heading-h3-bold-font-style);
 }
 
-.flights .image-placeholder-3 {
+.trains .image-placeholder-3 {
   width: 300px;
   height: 300px;
   top: 16px;
@@ -1269,7 +1269,7 @@ a:visited{
   object-fit: cover;
 }
 
-.flights .destinations-2 {
+.trains .destinations-2 {
   position: absolute;
   width: 1016px;
   height: 556px;
@@ -1277,7 +1277,7 @@ a:visited{
   left: 336px;
 }
 
-.flights .overlap-group-5 {
+.trains .overlap-group-5 {
   position: absolute;
   width: 336px;
   height: 556px;
@@ -1286,7 +1286,7 @@ a:visited{
   background-color: #ffffff;
 }
 
-.flights .overlap-7 {
+.trains .overlap-7 {
   position: absolute;
   width: 336px;
   height: 556px;
@@ -1295,7 +1295,7 @@ a:visited{
   background-color: #ffffff;
 }
 
-.flights .musanze {
+.trains .musanze {
   position: absolute;
   width: 336px;
   height: 556px;
@@ -1304,7 +1304,7 @@ a:visited{
   background-color: #ffffff;
 }
 
-.flights .image-placeholder-4 {
+.trains .image-placeholder-4 {
   width: 204px;
   height: 300px;
   top: 16px;
@@ -1313,7 +1313,7 @@ a:visited{
   object-fit: cover;
 }
 
-.flights .button-3 {
+.trains .button-3 {
   position: absolute;
   width: 56px;
   height: 56px;
@@ -1323,7 +1323,7 @@ a:visited{
   border: 1px solid;
 }
 
-.flights .overlap-8 {
+.trains .overlap-8 {
   height: 56px;
   background-color: #11c3e9;
   border-radius: 8px;
@@ -1331,7 +1331,7 @@ a:visited{
   border-color: #ffffff;
 }
 
-.flights .group-4 {
+.trains .group-4 {
   background-image: url(./img/arrow-chevron-right-1.svg);
   position: relative;
   width: 24px;
@@ -1341,7 +1341,7 @@ a:visited{
   background-size: 100% 100%;
 }
 
-.flights .button-4 {
+.trains .button-4 {
   position: absolute;
   width: 56px;
   height: 56px;
@@ -1349,7 +1349,7 @@ a:visited{
   left: 1016px;
 }
 
-.flights .overlap-9 {
+.trains .overlap-9 {
   position: relative;
   width: 58px;
   height: 58px;
@@ -1360,7 +1360,7 @@ a:visited{
   border-color: #11c3e9;
 }
 
-.flights .group-5 {
+.trains .group-5 {
   background-image: url(./img/arrow-chevron-left-1.svg);
   position: relative;
   width: 24px;

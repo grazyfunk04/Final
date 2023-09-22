@@ -6,6 +6,16 @@
   width: 100%;
 }
 
+
+
+a:link{
+  color: #11c3e9;
+}
+
+a:visited{
+  color: #11c3e9;
+}
+
 .hotels .div {
   background-color: #ffffff;
   overflow: hidden;

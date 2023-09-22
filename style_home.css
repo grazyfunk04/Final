@@ -6,6 +6,14 @@
   width: 100%;
 }
 
+a:link{
+  color: #11c3e9;
+}
+
+a:visited{
+  color: #11c3e9;
+}
+
 .home .div {
   background-color: #ffffff;
   overflow: hidden;
