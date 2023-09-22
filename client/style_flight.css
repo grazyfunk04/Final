@@ -1,4 +1,4 @@
-.home {
+.flights {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,7 +6,16 @@
   width: 100%;
 }
 
-.home .div {
+
+a:link{
+  color: #11c3e9;
+}
+
+a:visited{
+  color: #11c3e9;
+}
+
+.flights .div {
   background-color: #ffffff;
   overflow: hidden;
   width: 1280px;
@@ -14,7 +23,7 @@
   position: relative;
 }
 
-.home .navbar {
+.flights .navbar {
   position: absolute;
   width: 1026px;
   height: 51px;
@@ -22,7 +31,7 @@
   left: 187px;
 }
 
-.home .button {
+.flights .button {
   display: flex;
   width: 160px;
   height: 51px;
@@ -41,7 +50,7 @@
   box-sizing: border-box;
 }
 
-.home .click-here {
+.flights .click-here {
   position: relative;
   flex: 1;
   height: 19px;
@@ -56,7 +65,7 @@
   font-style: var(--body-body-1-semibold-font-style);
 }
 
-.home .action-search {
+.flights .action-search {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -64,20 +73,20 @@
   left: 824px;
 }
 
-.home .round-action-search {
+.flights .round-action-search {
   position: relative;
   height: 30px;
 }
 
-.home .path {
+.flights .path {
   position: absolute;
   width: 30px;
   height: 30px;
   top: 748px;
-  left: -1202px;
+  left: -10571px;
 }
 
-.home .icon-color {
+.flights .icon-color {
   position: absolute;
   width: 21px;
   height: 21px;
@@ -85,15 +94,15 @@
   left: 4px;
 }
 
-.home .menu {
+.flights .menu {
   position: absolute;
   width: 528px;
-  height: 34px;
+  height: 33px;
   top: 10px;
   left: 0;
 }
 
-.home .navbar-2 {
+.flights .navbar-2 {
   position: absolute;
   width: 540px;
   height: 24px;
@@ -101,7 +110,7 @@
   left: 0;
 }
 
-.home .text-wrapper {
+.flights .text-wrapper {
   left: 287px;
   color: var(--lighttext-colorbody-1);
   position: absolute;
@@ -114,7 +123,7 @@
   white-space: nowrap;
 }
 
-.home .text-wrapper-2 {
+.flights .text-wrapper-2 {
   left: 369px;
   color: var(--lighttext-colorbody-1);
   position: absolute;
@@ -127,7 +136,7 @@
   white-space: nowrap;
 }
 
-.home .text-wrapper-3 {
+.flights .text-wrapper-3 {
   position: absolute;
   top: 0;
   left: 427px;
@@ -140,7 +149,7 @@
   white-space: nowrap;
 }
 
-.home .text-wrapper-4 {
+.flights .text-wrapper-4 {
   position: absolute;
   top: 0;
   left: 144px;
@@ -153,7 +162,7 @@
   white-space: nowrap;
 }
 
-.home .text-wrapper-5 {
+.flights .text-wrapper-5 {
   left: 71px;
   color: #000000b2;
   position: absolute;
@@ -166,7 +175,7 @@
   white-space: nowrap;
 }
 
-.home .text-wrapper-6 {
+.flights .text-wrapper-6 {
   left: 0;
   color: #304f47;
   position: absolute;
@@ -179,344 +188,134 @@
   white-space: nowrap;
 }
 
-.home .line {
+.flights .line {
   position: absolute;
-  width: 56px;
+  width: 125px;
   height: 3px;
-  top: 31px;
+  top: 30px;
+  left: 147px;
+}
+
+.flights .overlap {
+  position: absolute;
+  width: 1288px;
+  height: 474px;
+  top: 164px;
   left: 0;
 }
 
-.home .overlap {
+.flights .hero {
   position: absolute;
-  width: 1284px;
-  height: 770px;
-  top: 165px;
-  left: 0;
-}
-
-.home .hero {
-  position: absolute;
-  width: 1284px;
-  height: 722px;
+  width: 1288px;
+  height: 474px;
   top: 0;
   left: 0;
 }
 
-.home .overlap-group {
+.flights .overlap-group {
   position: relative;
   width: 1280px;
-  height: 722px;
-  background-image: url(./img/image-placeholder.png);
+  height: 474px;
+  background-image: url(./img/image-placeholder-16.png);
   background-size: cover;
   background-position: 50% 50%;
 }
 
-.home .rectangle {
+.flights .rectangle {
   position: absolute;
   width: 1280px;
-  height: 720px;
-  top: 2px;
+  height: 473px;
+  top: 1px;
   left: 0;
   background-color: #304f4780;
 }
 
-.home .p {
+.flights .text-wrapper-7 {
+  width: 223px;
+  top: 270px;
+  left: 841px;
+  color: #50f4ea;
+  font-size: 32px;
+  letter-spacing: 0.16px;
+  line-height: 38.4px;
   position: absolute;
-  width: 354px;
-  top: 362px;
-  left: 136px;
-  font-family: "Mulish", Helvetica;
-  font-weight: 400;
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
+}
+
+.flights .text-wrapper-8 {
+  width: 232px;
+  top: 175px;
+  left: 498px;
   color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 0.1px;
-  line-height: 25px;
-}
-
-.home .text-wrapper-7 {
-  position: absolute;
-  width: 669px;
-  top: 197px;
-  left: 136px;
-  font-family: var(--heading-h1-bold-font-family);
-  font-weight: var(--heading-h1-bold-font-weight);
-  color: #ffffff;
-  font-size: var(--heading-h1-bold-font-size);
-  letter-spacing: var(--heading-h1-bold-letter-spacing);
-  line-height: var(--heading-h1-bold-line-height);
-  font-style: var(--heading-h1-bold-font-style);
-}
-
-.home .container {
-  position: absolute;
-  width: 1053px;
-  height: 88px;
-  top: 682px;
-  left: 113px;
-  background-color: #304f47;
-  border-radius: 8px;
-}
-
-.home .search {
-  width: 987px;
-  top: 698px;
-  left: 145px;
-  position: absolute;
-  height: 56px;
-}
-
-.home .sort-by {
-  position: absolute;
-  width: 51px;
-  height: 41px;
-  top: 7px;
-  left: 701px;
-}
-
-.home .all {
-  width: 47px;
-  height: 19px;
-  top: 22px;
-  position: absolute;
-  left: 0;
-}
-
-.home .element-chevron-bottom {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 3px;
-  left: 29px;
-}
-
-.home .text-wrapper-8 {
-  top: 0;
-  font-family: var(--headlines-headline-bold-normal-font-family);
-  font-weight: var(--headlines-headline-bold-normal-font-weight);
-  color: #ffffff;
-  font-size: var(--headlines-headline-bold-normal-font-size);
-  text-align: right;
-  letter-spacing: var(--headlines-headline-bold-normal-letter-spacing);
-  line-height: var(--headlines-headline-bold-normal-line-height);
+  font-size: 64px;
+  letter-spacing: 0.19px;
+  line-height: 76.8px;
   white-space: nowrap;
   position: absolute;
-  left: 0;
-  font-style: var(--headlines-headline-bold-normal-font-style);
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
 }
 
-.home .text-wrapper-9 {
+.flights .text-wrapper-9 {
+  width: 97px;
+  top: 276px;
+  left: 379px;
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.16px;
+  line-height: 38.4px;
   position: absolute;
-  top: 0;
-  left: 0;
-  font-family: var(--captions-captions-regular-font-family);
-  font-weight: var(--captions-captions-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--captions-captions-regular-font-size);
-  letter-spacing: var(--captions-captions-regular-letter-spacing);
-  line-height: var(--captions-captions-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--captions-captions-regular-font-style);
+  color: #ffffff;
 }
 
-.home .date {
+.flights .caret-right-filled {
   position: absolute;
-  width: 166px;
-  height: 42px;
-  top: 5px;
-  left: 507px;
+  width: 32px;
+  height: 32px;
+  top: 279px;
+  left: 505px;
 }
 
-.home .package {
+.flights .text-wrapper-10 {
   position: absolute;
-  width: 166px;
-  height: 19px;
-  top: 23px;
-  left: 0;
+  width: 223px;
+  top: 273px;
+  left: 566px;
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
+  color: #50f4ea;
+  font-size: 32px;
+  letter-spacing: 0.16px;
+  line-height: 38.4px;
 }
 
-.home .img {
-  left: 148px;
+.flights .img {
   position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 3px;
+  width: 32px;
+  height: 32px;
+  top: 276px;
+  left: 795px;
 }
 
-.home .guest {
-  position: absolute;
-  width: 83px;
-  height: 41px;
-  top: 5px;
-  left: 396px;
-}
-
-.home .adult {
-  position: absolute;
-  width: 83px;
-  height: 19px;
-  top: 22px;
-  left: 0;
-}
-
-.home .element-chevron-bottom-2 {
-  left: 65px;
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 3px;
-}
-
-.home .search-bar {
-  width: 352px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 56px;
-}
-
-.home .overlap-group-2 {
-  position: relative;
-  width: 350px;
-  height: 56px;
-  background-image: url(./img/form.svg);
-  background-size: 100% 100%;
-}
-
-.home .round-action-search-wrapper {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 16px;
-  left: 296px;
-}
-
-.home .icon-color-wrapper {
-  position: relative;
-  height: 24px;
-  top: -46px;
-  left: -632px;
-  background-image: url(./img/path-2.png);
-  background-size: 100% 100%;
-}
-
-.home .icon-color-2 {
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  top: 3px;
-  left: 3px;
-}
-
-.home .text-wrapper-10 {
-  position: absolute;
-  top: 18px;
-  left: 16px;
-  font-family: var(--body-body-1-regular-font-family);
-  font-weight: var(--body-body-1-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--body-body-1-regular-font-size);
-  letter-spacing: var(--body-body-1-regular-letter-spacing);
-  line-height: var(--body-body-1-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--body-body-1-regular-font-style);
-}
-
-.home .click-here-wrapper {
-  display: flex;
-  width: 160px;
-  height: 51px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 11px 24px;
-  position: absolute;
-  top: 5px;
-  left: 827px;
-  background-color: #11c3e9;
-  border-radius: 8px;
-  border: 1px solid;
-  border-color: #304f47;
-  all: unset;
-  box-sizing: border-box;
-}
-
-.home .back-buttons {
-  position: absolute;
-  width: 1070px;
-  height: 56px;
-  top: 519px;
-  left: 105px;
-}
-
-.home .back-button {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 1px;
-  left: 0;
-}
-
-.home .overlap-group-3 {
-  position: relative;
-  height: 55px;
-  border-radius: 27.5px;
-}
-
-.home .vector {
-  position: absolute;
-  width: 18px;
-  height: 27px;
-  top: 14px;
-  left: 17px;
-}
-
-.home .ellipse {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 0;
-  left: 0;
-  border-radius: 27.5px;
-  border: 6px solid;
-  border-color: #ffffff;
-}
-
-.home .overlap-wrapper {
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  top: 0;
-  left: 1015px;
-  transform: rotate(-180deg);
-}
-
-.home .vector-2 {
-  position: absolute;
-  width: 18px;
-  height: 27px;
-  top: 14px;
-  left: 17px;
-  transform: rotate(180deg);
-}
-
-.home .packages {
+.flights .packages {
   position: absolute;
   width: 1084px;
   height: 584px;
-  top: 1282px;
-  left: 105px;
+  top: 1028px;
+  left: 91px;
 }
 
-.home .overlap-group-wrapper {
+.flights .package {
+  left: 734px;
   position: absolute;
   width: 354px;
   height: 584px;
   top: 0;
-  left: 734px;
 }
 
-.home .overlap-group-4 {
+.flights .overlap-group-2 {
   position: relative;
   width: 350px;
   height: 584px;
@@ -526,7 +325,7 @@
   border-color: var(--lightseparators-colorssecondary);
 }
 
-.home .div-wrapper {
+.flights .click-here-wrapper {
   display: flex;
   width: 117px;
   height: 56px;
@@ -543,7 +342,7 @@
   box-sizing: border-box;
 }
 
-.home .click-here-2 {
+.flights .click-here-2 {
   position: relative;
   width: fit-content;
   margin-top: -0.5px;
@@ -560,7 +359,7 @@
   font-style: var(--body-body-1-semibold-font-style);
 }
 
-.home .text-wrapper-11 {
+.flights .text-wrapper-11 {
   position: absolute;
   width: 322px;
   top: 341px;
@@ -574,7 +373,7 @@
   font-style: var(--heading-h5-bold-font-style);
 }
 
-.home .image-placeholder {
+.flights .image-placeholder {
   position: absolute;
   width: 350px;
   height: 310px;
@@ -582,7 +381,7 @@
   left: -1px;
 }
 
-.home .text-wrapper-12 {
+.flights .p {
   position: absolute;
   width: 256px;
   top: 383px;
@@ -595,15 +394,15 @@
   line-height: 20px;
 }
 
-.home .package-2 {
+.flights .overlap-wrapper {
+  left: 367px;
   position: absolute;
   width: 354px;
   height: 584px;
   top: 0;
-  left: 367px;
 }
 
-.home .image-placeholder-2 {
+.flights .image-placeholder-2 {
   width: 350px;
   height: 310px;
   top: -1px;
@@ -612,35 +411,51 @@
   object-fit: cover;
 }
 
-.home .package-3 {
+.flights .overlap-group-wrapper {
+  left: 0;
   position: absolute;
   width: 354px;
   height: 584px;
   top: 0;
-  left: 0;
 }
 
-.home .packages-2 {
+.flights .packages-2 {
   position: absolute;
   width: 1084px;
   height: 584px;
-  top: 1900px;
+  top: 1738px;
+  left: 101px;
+}
+
+.flights .packages-3 {
+  position: absolute;
+  width: 1084px;
+  height: 584px;
+  top: 2473px;
   left: 105px;
 }
 
-.home .group {
+.flights .overlap-2 {
   position: absolute;
-  width: 612px;
-  height: 177px;
-  top: 1012px;
-  left: 348px;
+  width: 1070px;
+  height: 218px;
+  top: 684px;
+  left: 105px;
 }
 
-.home .text-wrapper-13 {
+.flights .group {
+  position: absolute;
+  width: 612px;
+  height: 181px;
+  top: 37px;
+  left: 257px;
+}
+
+.flights .text-wrapper-12 {
   position: absolute;
   width: 348px;
   top: 0;
-  left: 107px;
+  left: 136px;
   font-family: "Lora", Helvetica;
   font-weight: 700;
   color: #3685bf;
@@ -649,10 +464,10 @@
   line-height: 38.4px;
 }
 
-.home .text-wrapper-14 {
+.flights .text-wrapper-13 {
   position: absolute;
   width: 608px;
-  top: 61px;
+  top: 65px;
   left: 0;
   font-family: "Lora", Helvetica;
   font-weight: 700;
@@ -663,191 +478,66 @@
   line-height: 57.6px;
 }
 
-.home .group-2 {
-  position: absolute;
-  width: 612px;
-  height: 177px;
-  top: 2556px;
-  left: 336px;
-}
-
-.home .text-wrapper-15 {
-  position: absolute;
-  width: 348px;
-  top: 0;
-  left: 130px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #3685bf;
-  font-size: 32px;
-  letter-spacing: 0.16px;
-  line-height: 38.4px;
-}
-
-.home .destinations {
-  position: absolute;
-  width: 1352px;
-  height: 656px;
-  top: 2805px;
-  left: 62px;
-}
-
-.home .kigali {
-  width: 336px;
-  height: 556px;
-  top: 100px;
-  background-color: #ffffff;
-  position: absolute;
-  left: 0;
-}
-
-.home .div-2 {
-  position: absolute;
-  width: 282px;
-  height: 123px;
-  top: 357px;
-  left: 16px;
-}
-
-.home .text-wrapper-16 {
-  position: absolute;
-  width: 278px;
-  top: 63px;
-  left: 0;
-  font-family: var(--body-body-1-regular-font-family);
-  font-weight: var(--body-body-1-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--body-body-1-regular-font-size);
-  letter-spacing: var(--body-body-1-regular-letter-spacing);
-  line-height: var(--body-body-1-regular-line-height);
-  font-style: var(--body-body-1-regular-font-style);
-}
-
-.home .text-wrapper-17 {
-  top: 0;
-  font-family: var(--heading-h3-bold-font-family);
-  font-weight: var(--heading-h3-bold-font-weight);
-  color: #000000;
-  font-size: var(--heading-h3-bold-font-size);
-  letter-spacing: var(--heading-h3-bold-letter-spacing);
-  line-height: var(--heading-h3-bold-line-height);
-  white-space: nowrap;
-  position: absolute;
-  left: 0;
-  font-style: var(--heading-h3-bold-font-style);
-}
-
-.home .image-placeholder-3 {
-  width: 300px;
-  height: 300px;
-  top: 16px;
-  left: 16px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.home .destinations-2 {
-  position: absolute;
-  width: 1016px;
-  height: 556px;
-  top: 100px;
-  left: 336px;
-}
-
-.home .overlap-group-5 {
-  position: absolute;
-  width: 336px;
-  height: 556px;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-}
-
-.home .overlap-2 {
-  position: absolute;
-  width: 336px;
-  height: 556px;
-  top: 0;
-  left: 336px;
-  background-color: #ffffff;
-}
-
-.home .musanze {
-  position: absolute;
-  width: 336px;
-  height: 556px;
-  top: 0;
-  left: 680px;
-  background-color: #ffffff;
-}
-
-.home .image-placeholder-4 {
-  width: 186px;
-  height: 300px;
-  top: 16px;
-  left: 16px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.home .button-2 {
-  position: absolute;
-  width: 56px;
+.flights .back-buttons {
+  width: 1070px;
   height: 56px;
   top: 0;
-  left: 1094px;
-  background-color: #ffffff;
-  border: 1px solid;
+  position: absolute;
+  left: 0;
 }
 
-.home .group-wrapper {
-  height: 56px;
-  background-color: #11c3e9;
-  border-radius: 8px;
-  border: 1px solid;
+.flights .back-button {
+  width: 55px;
+  height: 55px;
+  top: 1px;
+  position: absolute;
+  left: 0;
+}
+
+.flights .overlap-group-3 {
+  position: relative;
+  height: 55px;
+  border-radius: 27.5px;
+}
+
+.flights .vector {
+  position: absolute;
+  width: 18px;
+  height: 27px;
+  top: 14px;
+  left: 17px;
+}
+
+.flights .ellipse {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  border-radius: 27.5px;
+  border: 6px solid;
   border-color: #ffffff;
 }
 
-.home .group-3 {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  top: 15px;
-  left: 15px;
-  background-image: url(./img/arrow-chevron-right-1.svg);
-  background-size: 100% 100%;
-}
-
-.home .button-3 {
+.flights .div-wrapper {
   position: absolute;
-  width: 56px;
-  height: 56px;
+  width: 55px;
+  height: 55px;
   top: 0;
-  left: 1016px;
+  left: 1015px;
+  transform: rotate(-180deg);
 }
 
-.home .overlap-3 {
-  position: relative;
-  width: 58px;
-  height: 58px;
-  top: -1px;
-  left: -1px;
-  border-radius: 8px;
-  border: 2px solid;
-  border-color: #11c3e9;
+.flights .vector-2 {
+  position: absolute;
+  width: 18px;
+  height: 27px;
+  top: 14px;
+  left: 17px;
+  transform: rotate(180deg);
 }
 
-.home .group-4 {
-  height: 24px;
-  top: 15px;
-  left: 15px;
-  background-image: url(./img/arrow-chevron-left-1.svg);
-  position: relative;
-  width: 24px;
-  background-size: 100% 100%;
-}
-
-.home .group-social-icons {
+.flights .group-social-icons {
   position: absolute;
   width: 120px;
   height: 33px;
@@ -855,31 +545,31 @@
   left: 1055px;
 }
 
-.home .social-button {
+.flights .social-button {
   position: absolute;
   width: 24px;
   height: 33px;
   top: 833px;
-  left: -191px;
+  left: -9560px;
 }
 
-.home .social-button-2 {
+.flights .social-button-2 {
   position: absolute;
   width: 24px;
   height: 33px;
   top: 833px;
-  left: -159px;
+  left: -9528px;
 }
 
-.home .social-button-3 {
+.flights .social-button-3 {
   position: absolute;
   width: 24px;
   height: 33px;
   top: 833px;
-  left: -127px;
+  left: -9496px;
 }
 
-.home .subtract-wrapper {
+.flights .subtract-wrapper {
   position: absolute;
   width: 24px;
   height: 33px;
@@ -890,135 +580,15 @@
   border-color: #ffffff;
 }
 
-.home .subtract {
+.flights .subtract {
   position: absolute;
   width: 10px;
   height: 14px;
   top: 1073px;
-  left: -1336px;
+  left: -10705px;
 }
 
-.home .group-5 {
-  position: absolute;
-  width: 612px;
-  height: 177px;
-  top: 3461px;
-  left: 336px;
-}
-
-.home .text-wrapper-18 {
-  position: absolute;
-  width: 148px;
-  top: 0;
-  left: 230px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #3685bf;
-  font-size: 32px;
-  letter-spacing: 0.16px;
-  line-height: 38.4px;
-}
-
-.home .group-6 {
-  position: absolute;
-  width: 612px;
-  height: 177px;
-  top: 4002px;
-  left: 336px;
-}
-
-.home .text-wrapper-19 {
-  position: absolute;
-  width: 287px;
-  top: 0;
-  left: 161px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #3685bf;
-  font-size: 32px;
-  letter-spacing: 0.16px;
-  line-height: 38.4px;
-}
-
-.home .why-choose {
-  position: absolute;
-  width: 1060px;
-  height: 150px;
-  top: 3745px;
-  left: 110px;
-}
-
-.home .card {
-  left: 0;
-  position: absolute;
-  width: 252px;
-  height: 150px;
-  top: 0;
-}
-
-.home .overlap-group-6 {
-  position: relative;
-  width: 250px;
-  height: 150px;
-  background-color: #304f47;
-  border-radius: 30px;
-}
-
-.home .img-2 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 25px;
-  left: 100px;
-}
-
-.home .text-wrapper-20 {
-  position: absolute;
-  width: 202px;
-  top: 92px;
-  left: 24px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.08px;
-  line-height: 19.2px;
-}
-
-.home .card-2 {
-  left: 270px;
-  position: absolute;
-  width: 252px;
-  height: 150px;
-  top: 0;
-}
-
-.home .check-circle {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  top: 25px;
-  left: 109px;
-}
-
-.home .card-3 {
-  left: 540px;
-  position: absolute;
-  width: 252px;
-  height: 150px;
-  top: 0;
-}
-
-.home .card-4 {
-  left: 810px;
-  position: absolute;
-  width: 252px;
-  height: 150px;
-  top: 0;
-}
-
-.home .overlap-4 {
+.flights .overlap-3 {
   position: absolute;
   width: 1280px;
   height: 565px;
@@ -1026,7 +596,7 @@
   left: -1px;
 }
 
-.home .footer {
+.flights .footer {
   width: 1280px;
   position: absolute;
   height: 565px;
@@ -1034,13 +604,13 @@
   left: 0;
 }
 
-.home .overlap-5 {
+.flights .overlap-4 {
   position: relative;
   width: 1282px;
   height: 565px;
 }
 
-.home .footer-2 {
+.flights .footer-2 {
   width: 1282px;
   position: absolute;
   height: 565px;
@@ -1048,14 +618,14 @@
   left: 0;
 }
 
-.home .overlap-group-7 {
+.flights .overlap-group-4 {
   position: relative;
   width: 1280px;
   height: 565px;
   background-color: #304f47;
 }
 
-.home .menu-list {
+.flights .menu-list {
   position: absolute;
   width: 93px;
   height: 92px;
@@ -1063,7 +633,7 @@
   left: 1133px;
 }
 
-.home .text-wrapper-21 {
+.flights .text-wrapper-14 {
   position: absolute;
   width: 82px;
   top: 72px;
@@ -1078,7 +648,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-22 {
+.flights .text-wrapper-15 {
   position: absolute;
   width: 58px;
   top: 36px;
@@ -1093,7 +663,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-23 {
+.flights .text-wrapper-16 {
   position: absolute;
   width: 87px;
   top: 0;
@@ -1108,7 +678,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .menu-list-2 {
+.flights .menu-list-2 {
   width: 155px;
   height: 128px;
   left: 924px;
@@ -1116,7 +686,7 @@
   top: 274px;
 }
 
-.home .text-wrapper-24 {
+.flights .text-wrapper-17 {
   position: absolute;
   width: 70px;
   top: 72px;
@@ -1131,7 +701,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-25 {
+.flights .text-wrapper-18 {
   position: absolute;
   width: 70px;
   top: 108px;
@@ -1146,7 +716,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-26 {
+.flights .text-wrapper-19 {
   position: absolute;
   width: 147px;
   top: 36px;
@@ -1161,7 +731,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-27 {
+.flights .text-wrapper-20 {
   position: absolute;
   width: 102px;
   top: 0;
@@ -1176,7 +746,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .menu-list-3 {
+.flights .menu-list-3 {
   width: 105px;
   height: 122px;
   left: 720px;
@@ -1184,7 +754,7 @@
   top: 274px;
 }
 
-.home .text-wrapper-28 {
+.flights .text-wrapper-21 {
   position: absolute;
   width: 96px;
   top: 72px;
@@ -1199,7 +769,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-29 {
+.flights .text-wrapper-22 {
   position: absolute;
   width: 68px;
   top: 102px;
@@ -1214,22 +784,22 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-30 {
+.flights .text-wrapper-23 {
   width: 45px;
+  top: 0;
   left: 1px;
-  color: #ffffff;
+  font-family: var(--menu-menu-1-regular-font-family);
+  font-weight: var(--menu-menu-1-regular-font-weight);
   font-size: var(--menu-menu-1-regular-font-size);
   letter-spacing: var(--menu-menu-1-regular-letter-spacing);
   line-height: var(--menu-menu-1-regular-line-height);
-  position: absolute;
-  top: 0;
-  font-family: var(--menu-menu-1-regular-font-family);
-  font-weight: var(--menu-menu-1-regular-font-weight);
   white-space: nowrap;
+  position: absolute;
+  color: #ffffff;
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-31 {
+.flights .text-wrapper-24 {
   position: absolute;
   width: 97px;
   top: 36px;
@@ -1244,7 +814,7 @@
   font-style: var(--menu-menu-1-regular-font-style);
 }
 
-.home .text-wrapper-32 {
+.flights .text-wrapper-25 {
   position: absolute;
   width: 499px;
   top: 150px;
@@ -1258,7 +828,7 @@
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.home .contact-us {
+.flights .contact-us {
   position: absolute;
   width: 758px;
   height: 565px;
@@ -1266,13 +836,13 @@
   left: 0;
 }
 
-.home .overlap-6 {
+.flights .overlap-5 {
   position: relative;
   width: 750px;
   height: 565px;
 }
 
-.home .background {
+.flights .background {
   position: absolute;
   width: 618px;
   height: 565px;
@@ -1281,7 +851,7 @@
   background-color: #304f47;
 }
 
-.home .text-wrapper-33 {
+.flights .text-wrapper-26 {
   position: absolute;
   width: 271px;
   top: 518px;
@@ -1296,7 +866,7 @@
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.home .if-you-have-any {
+.flights .if-you-have-any {
   position: absolute;
   width: 396px;
   top: 154px;
@@ -1309,7 +879,7 @@
   line-height: 25px;
 }
 
-.home .span {
+.flights .span {
   font-family: "Mulish", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -1318,11 +888,11 @@
   line-height: 25px;
 }
 
-.home .text-wrapper-34 {
+.flights .text-wrapper-27 {
   text-decoration: underline;
 }
 
-.home .text-wrapper-35 {
+.flights .text-wrapper-28 {
   position: absolute;
   width: 309px;
   top: 376px;
@@ -1336,7 +906,7 @@
   white-space: nowrap;
 }
 
-.home .text-wrapper-36 {
+.flights .text-wrapper-29 {
   position: absolute;
   width: 467px;
   top: 30px;
@@ -1350,7 +920,7 @@
   font-style: var(--heading-h3-bold-font-style);
 }
 
-.home .button-4 {
+.flights .button-2 {
   position: absolute;
   width: 55px;
   height: 58px;
@@ -1359,23 +929,23 @@
   background-color: #304f47;
 }
 
-.home .overlap-group-8 {
+.flights .group-wrapper {
   height: 58px;
   background-color: #11c3e9;
   border-radius: 8px;
 }
 
-.home .group-7 {
+.flights .group-2 {
+  position: relative;
+  width: 24px;
   height: 25px;
   top: 16px;
   left: 16px;
   background-image: url(./img/content-send-1.svg);
-  position: relative;
-  width: 24px;
   background-size: 100% 100%;
 }
 
-.home .textbox {
+.flights .textbox {
   position: absolute;
   width: 335px;
   height: 58px;
@@ -1383,7 +953,7 @@
   left: 96px;
 }
 
-.home .overlap-7 {
+.flights .overlap-6 {
   position: relative;
   width: 333px;
   height: 58px;
@@ -1391,7 +961,7 @@
   border-radius: 8px;
 }
 
-.home .text-wrapper-37 {
+.flights .text-wrapper-30 {
   position: absolute;
   width: 185px;
   top: 19px;
@@ -1406,7 +976,7 @@
   font-style: var(--body-body-1-regular-font-style);
 }
 
-.home .group-social-icons-2 {
+.flights .group-social-icons-2 {
   position: absolute;
   width: 126px;
   height: 29px;
@@ -1414,7 +984,7 @@
   left: 940px;
 }
 
-.home .social-button-4 {
+.flights .social-button-4 {
   position: absolute;
   width: 30px;
   height: 28px;
@@ -1422,7 +992,7 @@
   left: 0;
 }
 
-.home .social-button-5 {
+.flights .social-button-5 {
   position: absolute;
   width: 29px;
   height: 28px;
@@ -1430,7 +1000,7 @@
   left: 32px;
 }
 
-.home .social-button-6 {
+.flights .social-button-6 {
   position: absolute;
   width: 29px;
   height: 28px;
@@ -1438,7 +1008,7 @@
   left: 64px;
 }
 
-.home .img-wrapper {
+.flights .img-wrapper {
   position: absolute;
   width: 30px;
   height: 29px;
@@ -1449,7 +1019,7 @@
   border-color: #ffffff;
 }
 
-.home .subtract-2 {
+.flights .subtract-2 {
   position: absolute;
   width: 13px;
   height: 13px;
@@ -1457,7 +1027,7 @@
   left: 7px;
 }
 
-.home .tourism {
+.flights .tourism {
   position: absolute;
   width: 95px;
   height: 85px;
@@ -1466,144 +1036,7 @@
   object-fit: cover;
 }
 
-.home .testimonials {
-  position: absolute;
-  width: 1000px;
-  height: 380px;
-  top: 4269px;
-  left: 140px;
-}
-
-.home .testimonial {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 304px;
-  height: 380px;
-}
-
-.home .overlap-group-9 {
-  position: relative;
-  width: 300px;
-  height: 380px;
-  background-color: #ffffff;
-  border: 1px solid;
-  border-color: #0000001a;
-  box-shadow: 0px 4px 4px #00000040;
-}
-
-.home .overlap-8 {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 29px;
-  left: 90px;
-  border-radius: 60px;
-}
-
-.home .ellipse-2 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 10px;
-  left: 10px;
-  object-fit: cover;
-}
-
-.home .ellipse-3 {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 0;
-  left: 0;
-  border-radius: 60px;
-  border: 5px solid;
-  border-color: #304f47;
-}
-
-.home .text-wrapper-38 {
-  position: absolute;
-  width: 202px;
-  top: 169px;
-  left: 48px;
-  font-family: "Lora", Helvetica;
-  font-weight: 700;
-  color: #000000;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.08px;
-  line-height: 19.2px;
-}
-
-.home .text-wrapper-39 {
-  position: absolute;
-  width: 249px;
-  top: 209px;
-  left: 25px;
-  font-family: var(--body-body-1-regular-font-family);
-  font-weight: var(--body-body-1-regular-font-weight);
-  color: var(--lighttext-colorbody-2);
-  font-size: var(--body-body-1-regular-font-size);
-  text-align: justify;
-  letter-spacing: var(--body-body-1-regular-letter-spacing);
-  line-height: var(--body-body-1-regular-line-height);
-  font-style: var(--body-body-1-regular-font-style);
-}
-
-.home .testimonial-wrapper {
-  position: absolute;
-  width: 300px;
-  height: 380px;
-  top: 0;
-  left: 350px;
-}
-
-.home .testimonial-2 {
-  width: 304px;
-  height: 380px;
-}
-
-.home .testimonials-2 {
-  position: absolute;
-  width: 300px;
-  height: 380px;
-  top: 0;
-  left: 700px;
-}
-
-.home .group-8 {
-  position: absolute;
-  width: 218px;
-  height: 1px;
-  top: 4722px;
-  left: 531px;
-}
-
-.home .line-2 {
-  position: absolute;
-  width: 50px;
-  height: 10px;
-  top: -10px;
-  left: 0;
-}
-
-.home .line-3 {
-  position: absolute;
-  width: 50px;
-  height: 10px;
-  top: -10px;
-  left: 83px;
-}
-
-.home .line-4 {
-  position: absolute;
-  width: 50px;
-  height: 10px;
-  top: -10px;
-  left: 168px;
-}
-
-.home .upper-navigation {
+.flights .upper-navigation {
   position: absolute;
   width: 1280px;
   height: 50px;
@@ -1612,7 +1045,7 @@
   background-color: #11c3e9;
 }
 
-.home .group-social-icons-3 {
+.flights .group-social-icons-3 {
   position: absolute;
   width: 120px;
   height: 25px;
@@ -1620,7 +1053,7 @@
   left: 1060px;
 }
 
-.home .social-button-7 {
+.flights .social-button-7 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1628,7 +1061,7 @@
   left: 0;
 }
 
-.home .social-button-8 {
+.flights .social-button-8 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1636,7 +1069,7 @@
   left: 32px;
 }
 
-.home .social-button-9 {
+.flights .social-button-9 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1644,7 +1077,7 @@
   left: 64px;
 }
 
-.home .social-button-10 {
+.flights .social-button-10 {
   position: absolute;
   width: 24px;
   height: 25px;
@@ -1655,7 +1088,7 @@
   border-color: #ffffff;
 }
 
-.home .subtract-3 {
+.flights .subtract-3 {
   position: absolute;
   width: 10px;
   height: 11px;
@@ -1663,7 +1096,7 @@
   left: 6px;
 }
 
-.home .group-phone {
+.flights .group-phone {
   position: absolute;
   width: 118px;
   height: 21px;
@@ -1671,7 +1104,7 @@
   left: 100px;
 }
 
-.home .vector-3 {
+.flights .vector-3 {
   position: absolute;
   width: 20px;
   height: 21px;
@@ -1679,7 +1112,7 @@
   left: 0;
 }
 
-.home .text-wrapper-40 {
+.flights .text-wrapper-31 {
   position: absolute;
   width: 92px;
   top: 2px;
@@ -1692,7 +1125,7 @@
   line-height: normal;
 }
 
-.home .group-email {
+.flights .group-email {
   position: absolute;
   width: 166px;
   height: 19px;
@@ -1700,7 +1133,7 @@
   left: 245px;
 }
 
-.home .text-wrapper-41 {
+.flights .text-wrapper-32 {
   position: absolute;
   width: 133px;
   top: 1px;
@@ -1713,7 +1146,7 @@
   line-height: normal;
 }
 
-.home .vector-4 {
+.flights .vector-4 {
   position: absolute;
   width: 25px;
   height: 19px;
@@ -1721,11 +1154,218 @@
   left: 0;
 }
 
-.home .tourism-2 {
+.flights .tourism-2 {
   position: absolute;
   width: 95px;
   height: 84px;
   top: 65px;
   left: 41px;
   object-fit: cover;
+}
+
+.flights .packages-4 {
+  position: absolute;
+  width: 1084px;
+  height: 584px;
+  top: 3263px;
+  left: 115px;
+}
+
+.flights .group-3 {
+  position: absolute;
+  width: 612px;
+  height: 172px;
+  top: 3937px;
+  left: 353px;
+}
+
+.flights .text-wrapper-33 {
+  position: absolute;
+  width: 251px;
+  top: 0;
+  left: 170px;
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
+  color: #3685bf;
+  font-size: 32px;
+  letter-spacing: 0.16px;
+  line-height: 38.4px;
+  white-space: nowrap;
+}
+
+.flights .select-our-best {
+  position: absolute;
+  width: 608px;
+  top: 56px;
+  left: 0;
+  font-family: "Lora", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.24px;
+  line-height: 57.6px;
+}
+
+.flights .destinations {
+  position: absolute;
+  width: 1352px;
+  height: 656px;
+  top: 4143px;
+  left: 44px;
+}
+
+.flights .kigali {
+  width: 336px;
+  height: 556px;
+  top: 100px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+}
+
+.flights .div-2 {
+  position: absolute;
+  width: 282px;
+  height: 123px;
+  top: 357px;
+  left: 16px;
+}
+
+.flights .text-wrapper-34 {
+  position: absolute;
+  width: 278px;
+  top: 63px;
+  left: 0;
+  font-family: var(--body-body-1-regular-font-family);
+  font-weight: var(--body-body-1-regular-font-weight);
+  color: var(--lighttext-colorbody-2);
+  font-size: var(--body-body-1-regular-font-size);
+  letter-spacing: var(--body-body-1-regular-letter-spacing);
+  line-height: var(--body-body-1-regular-line-height);
+  font-style: var(--body-body-1-regular-font-style);
+}
+
+.flights .text-wrapper-35 {
+  top: 0;
+  font-family: var(--heading-h3-bold-font-family);
+  font-weight: var(--heading-h3-bold-font-weight);
+  color: #000000;
+  font-size: var(--heading-h3-bold-font-size);
+  letter-spacing: var(--heading-h3-bold-letter-spacing);
+  line-height: var(--heading-h3-bold-line-height);
+  white-space: nowrap;
+  position: absolute;
+  left: 0;
+  font-style: var(--heading-h3-bold-font-style);
+}
+
+.flights .image-placeholder-3 {
+  width: 300px;
+  height: 300px;
+  top: 16px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.flights .destinations-2 {
+  position: absolute;
+  width: 1016px;
+  height: 556px;
+  top: 100px;
+  left: 336px;
+}
+
+.flights .overlap-group-5 {
+  position: absolute;
+  width: 336px;
+  height: 556px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.flights .overlap-7 {
+  position: absolute;
+  width: 336px;
+  height: 556px;
+  top: 0;
+  left: 336px;
+  background-color: #ffffff;
+}
+
+.flights .musanze {
+  position: absolute;
+  width: 336px;
+  height: 556px;
+  top: 0;
+  left: 680px;
+  background-color: #ffffff;
+}
+
+.flights .image-placeholder-4 {
+  width: 204px;
+  height: 300px;
+  top: 16px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.flights .button-3 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  left: 1094px;
+  background-color: #ffffff;
+  border: 1px solid;
+}
+
+.flights .overlap-8 {
+  height: 56px;
+  background-color: #11c3e9;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.flights .group-4 {
+  background-image: url(./img/arrow-chevron-right-1.svg);
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 15px;
+  background-size: 100% 100%;
+}
+
+.flights .button-4 {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 0;
+  left: 1016px;
+}
+
+.flights .overlap-9 {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  top: -1px;
+  left: -1px;
+  border-radius: 8px;
+  border: 2px solid;
+  border-color: #11c3e9;
+}
+
+.flights .group-5 {
+  background-image: url(./img/arrow-chevron-left-1.svg);
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 15px;
+  background-size: 100% 100%;
 }
